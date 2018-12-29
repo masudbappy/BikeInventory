@@ -20,7 +20,7 @@ public class Bike {
     private String phone;
     private String model;
     private String serialNumber;
-    private BigDecimal purchagePrice;
+    private BigDecimal purchasePrice;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "mm-dd-yyyy")
     private Date purchaseDate;
     private boolean contact;
@@ -73,12 +73,12 @@ public class Bike {
         this.serialNumber = serialNumber;
     }
 
-    public BigDecimal getPurchagePrice() {
-        return purchagePrice;
+    public BigDecimal getPurchasePrice() {
+        return purchasePrice;
     }
 
-    public void setPurchagePrice(BigDecimal purchagePrice) {
-        this.purchagePrice = purchagePrice;
+    public void setPurchasePrice(BigDecimal purchasePrice) {
+        this.purchasePrice = purchasePrice;
     }
 
     public Date getPurchaseDate() {
